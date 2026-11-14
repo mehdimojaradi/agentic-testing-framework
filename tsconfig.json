@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "ES2023",
+        "module": "NodeNext",
+        "lib": [
+            "ES2023",
+            "DOM"
+        ],
+        "moduleResolution": "node16",
+        "types": [
+            "node"
+        ],
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "outDir": "dist",
+        "ignoreDeprecations": "6.0"
+    },
+    "include": [
+        "playwright.config.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
